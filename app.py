@@ -168,7 +168,7 @@ with tab2:
     if uploaded_file is not None:
         # Display the image
         image = Image.open(uploaded_file)
-        st.image(image, caption="Image with Hidden Message", use_container_width=True)
+        st.image(image, caption="Image with Hidden Message")
         
         decode_button = st.button("Decode Message")
         
