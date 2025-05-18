@@ -111,7 +111,7 @@ with tab1:
                         # Display the encoded image
                         st.success(f"Message encoded successfully into {output_filename}!")
                         encoded_img = Image.open(output_path)
-                       st.image(encoded_img, caption="Encoded Image")
+                        st.image(encoded_img, caption="Encoded Image")
 
                         
                         # Create download link
