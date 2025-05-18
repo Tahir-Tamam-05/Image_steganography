@@ -38,7 +38,7 @@ with tab1:
     if uploaded_file is not None:
         # Display original image
         image = Image.open(uploaded_file)
-        st.image(image, caption="Original Image", use_container_width=True)
+        st.image(image, caption="Original Image")
         
         # Image info and capacity
         image_width, image_height = image.size
